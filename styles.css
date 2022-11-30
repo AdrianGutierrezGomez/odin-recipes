@@ -1,0 +1,27 @@
+body{
+    background-color:#FF450099 ;
+}
+h1 {margin-bottom: -70px;
+    padding-right: 60px;
+    text-align: center;
+    color: #324AB2;
+    font-family:  Georgia, serif;
+    font-size: 60px;
+
+}
+p.subtitle{
+    padding-left: 180px;
+    text-align: center;
+    color: #324AB2;;
+    font-family:  "Brush Script MT", cursive;
+    font-size: 60px;
+    
+}
+li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
