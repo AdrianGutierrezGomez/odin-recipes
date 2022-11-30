@@ -1,8 +1,17 @@
-body{
-    background-color:#FF450099 ;
+
+h1#odin {
+    margin-top: 100px;
+    padding-right: 80px;
+    margin-bottom: -70px;
+    text-align: center;
+    color: #324AB2;
+    font-family:  Georgia, serif;
+    font-size: 70px;
+
 }
-h1 {margin-bottom: -70px;
-    padding-right: 60px;
+h1 {
+    
+    margin-bottom: -70px;
     text-align: center;
     color: #324AB2;
     font-family:  Georgia, serif;
@@ -10,9 +19,9 @@ h1 {margin-bottom: -70px;
 
 }
 p.subtitle{
-    padding-left: 180px;
+    padding-left: 160px;
     text-align: center;
-    color: #324AB2;;
+    color: orangered;
     font-family:  "Brush Script MT", cursive;
     font-size: 60px;
     
@@ -21,6 +30,28 @@ img{
     margin-top: 80px;
     height: auto;
     width: 500px;
+}
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+ul.index{
+    margin: 50px;
+    padding-left: 80px;
+   }
+li{
+    list-style:none;
+    padding:10px;
+}
+li::before {
+content:'';
+display:inline-block;
+height: 1.5em;
+width: 1.5em;
+background-image: url(images/spoon-list.jpg);
+background-size: contain;
+background-repeat: no-repeat;
 }
 li a{
     font-family: Georgia, 'Times New Roman', Times, serif;
