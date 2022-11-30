@@ -17,6 +17,11 @@ p.subtitle{
     font-size: 60px;
     
 }
+img{
+    margin-top: 80px;
+    height: auto;
+    width: 500px;
+}
 li a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
